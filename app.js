@@ -1,8 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const style = require("./lib/css")
-require("./lib/employee")
-const Engineer = require("./lib/engineer")
+require("./lib/all")
+const All = require("./lib/all")
 const Manager = require("./lib/manager")
 const Intern = require("./lib/intern")
 
