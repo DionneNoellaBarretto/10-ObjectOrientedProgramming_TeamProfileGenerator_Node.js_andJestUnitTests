@@ -127,7 +127,7 @@ function addIntern() {
 };
 
 function compileTeam() {
-    console.log("//////////You've done it!!! Now give your team a raise.////////")
+    console.log(`You've successfully created your team profile using this generator. Please review this information by navigating to https://dionnenoellabarretto.github.io/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests/${finalTeamArray[0]}.html`)
     const htmlArray = []
     const htmlBeginning = `<!DOCTYPE html>
 <html lang="en">
