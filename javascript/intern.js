@@ -1,10 +1,12 @@
 const Employee = require("./all")
 
 class Intern extends Employee {
-    constructor(name, id, email, school){
+    constructor(name, id, email, school,year){
         super(name, id, email)
         this.school = school;
+        this.year = year;
         this.title = "Intern";
+        
     }
 
     getSchool(){
@@ -13,6 +15,10 @@ class Intern extends Employee {
 
     getRole(){
         return this.title;
+    }
+
+    getYear(){
+        return this.year;
     }
 }
 

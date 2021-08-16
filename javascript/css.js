@@ -1,69 +1,73 @@
 const style = `
+/* element  selectors */
 html, body {
     max-width: 100% !important;
-    overflow-x: hidden !important;
 }
 
 body {
+    background-color: darkgray;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+h1 {
+    font-family: 'Merienda', cursive;
+    font-size: 6vw;
+}
+
+p {
+    font-family: 'Merienda', cursive;
+    position: relative;
+    left: 12px;
+}
+
+h2 {
+    font-family: 'Merienda', cursive;
+    position: relative;
+    font-size: 17px;
+    left: 12px;
+}
+
+/* class selectors */
 .banner-bar {
-    background-color: rgba(53, 124, 109, 0.842);
+    background: linear-gradient(-45deg, #00D693, #5266FE, #1A76F8);
     width: 100%;
-    color: #ffffff;
+    color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20vh;
 }
 
-h1 {
-    font-family: Bebas Neue;
-    font-size: 8vw;
-}
-
-p {
-    font-family: 'Roboto Condensed', sans-serif;
-    position: relative;
-    left: 12px;
-}
-
-h2 {
-    font-family: 'Roboto Condensed', sans-serif;
-    position: relative;
-    font-size: 17px;
-    left: 12px;
-}
-
-.member-card {
-    width: 250px;
+.card {
+    width: 285px;
     height: 34vh;
     margin-bottom: 5vh;
-    background-color: rgb(240, 238, 238);
-    box-shadow: 2px 5px 5px black;
-    border-top-left-radius: 10px;
+    background: linear-gradient(-75deg, rgb(247, 243, 190), #d1d1d1);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
 }
 
 .card-container {
     position: absolute;
-    top: 26vh;
+    top: 25vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 60vw;
+    width: 90vw;
 }
 
-.card-top {
-    background-color: rgb(228, 174, 76);
-    border: 2px solid rgb(228, 174, 76);
-    width: 246px;
-    border-top-left-radius: 10px;
+.card-header {
+    background: linear-gradient(45deg, #CE7287, #5EA7EC, #02D496);
+    border: 2px dashed #5EA7EC;
+    width: 281px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-.card-bottom {
+.card-body {
+    background: linear-gradient(-75deg, rgb(247, 243, 190), #d1d1d1);
     display: flex;
     flex-direction: column;
     align-content: center;

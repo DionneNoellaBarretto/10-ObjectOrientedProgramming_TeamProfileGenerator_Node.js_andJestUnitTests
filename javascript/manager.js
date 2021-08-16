@@ -2,9 +2,10 @@ const Employee = require("./all")
 
 
 class Manager extends Employee {
-    constructor (name, id, email, officeNumber){
+    constructor (name, id, email, officeNumber,mobileNumber){
         super (name, id, email)
-        this.officeNumber = officeNumber
+        this.officeNumber = officeNumber;
+        this.mobileNumber = mobileNumber;
         this.title = "Manager"
     }
 
@@ -16,14 +17,10 @@ class Manager extends Employee {
         return this.officeNumber;
     }
 
+    getMobileNumber(){
+        return this.mobileNumber;
+    }
+
 }
 
 module.exports = Manager
-
-// const name = "matt"
-// const id = 4
-// const email = "myemail"
-// const officeNumber = 65
-
-// const matt = new Manager (name, id, email, officeNumber)
-// console.log(matt)
