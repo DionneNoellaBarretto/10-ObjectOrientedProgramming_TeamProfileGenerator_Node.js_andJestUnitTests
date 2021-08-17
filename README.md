@@ -19,7 +19,9 @@ SO THAT I have quick access to their emails and GitHub profiles
 
 ## Acceptance Criteria
 
-![Gif Demo](./supplemental/09-Professional_README_Node.js.gif)
+[Video Link - Demonstration](https://drive.google.com/file/d/1trOGq5PrGlUXNzIxNRGmdnzXLphKA3iB/view?usp=sharing)
+
+![Gif Demo](./supplemental/TeamProfileGenerator_jest,npm,node.js,oop.gif)
 
 ```
 GIVEN a command-line application that accepts user input
@@ -78,9 +80,6 @@ This homework is graded based on the following criteria:
 ```
 
 ### Walkthrough Video: 32%
-
-[Video Link - Demonstration](https://drive.google.com/file/d/1C7WvMXyLlGElx_YSUi8Msw4BTJFCmUTU/view?usp=sharing)
-
 ```
 ✅ A walkthrough video that demonstrates the functionality of the Team Profile Generator and passing tests must be submitted, and a link to the video should be included in your README file.
 ✅The walkthrough video must show all four tests passing from the command line.
