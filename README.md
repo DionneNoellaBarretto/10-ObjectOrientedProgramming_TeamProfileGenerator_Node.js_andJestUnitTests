@@ -32,25 +32,35 @@ GIVEN a command-line application that accepts user input
 
 ## DNB's SOLUTION:
 #### UNC Boot Camp Submission: 
-🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests) | 
+🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests)
+
 📄 [Example Github Page](https://dionnenoellabarretto.github.io/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests/FrontEnd Team)
+
 📄 [Another Example Github Page](https://dionnenoellabarretto.github.io/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests/Cloud Team)
 
 ## Mock-Up
 Clickable link(s): navigate to github, university or local mail client
 ![Click](./supplemental/Click.png?raw=true "Click")
+
 Unit Test Pass Report:
 ![Test](./supplemental/Test.png?raw=true "Test")
+
 Input:
 ![Example](./supplemental/Example.png?raw=true "Example")
+
 Responsive layout on different screen sizes looks as follows:
+
 Desktop View:
+
 ![DesktopView](./supplemental/DesktopView.png?raw=true "DesktopView")
 Laptop View:
+
 ![LaptopView](./supplemental/LaptopView.png?raw=true "LaptopView")
 Tablet View:
-![TabletView](./supplemental/TabletView.png?raw=true "![TabletView](./supplemental/TabletView.png?raw=true "DesktopView")
+
+![TabletView](./supplemental/TabletView.png?raw=true "TabletView")
 Mobile View:
+
 ![MobileView](./supplemental/MobileView.png?raw=true "MobileView")
 
 
@@ -78,7 +88,7 @@ This homework is graded based on the following criteria:
 
 ### Technical Acceptance Criteria: 40%
 ```
-✅ Satisfies all of the preceding acceptance criteria plus the following:
+✅Satisfies all of the preceding acceptance criteria plus the following:
 ✅Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
 ✅Uses the [Jest package](https://www.npmjs.com/package/jest) for a suite of unit tests.
 ✅The application must have `Employee`, `Manager`, `Engineer`, and `Intern` classes.
