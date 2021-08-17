@@ -10,6 +10,7 @@ The task in this exercise is to build a Node.js command-line application that ta
 To generate your own team profile, first run 'npm install' or 'npm i' after cloning this repository to your local system in order to install the npm package dependencies as specified in the 'package.json'. Prior to proceeding type 'npm run test' to double check if the applications functioning using an embedded unit test called 'UnitTesting.test.js' in the tests folder. Upon reviewing the pass results, run this application using 'node index.js' and provide answers to the subsequent command line prompts. 
 
 ## User Story
+
 ```
 AS A manager
 I WANT to generate a webpage that displays my team's basic info
@@ -17,7 +18,9 @@ SO THAT I have quick access to their emails and GitHub profiles
 ```
 
 ## Acceptance Criteria
+
 ![Gif Demo](./supplemental/09-Professional_README_Node.js.gif)
+
 ```
 GIVEN a command-line application that accepts user input
 ✓ WHEN I am prompted for my team members and their information THEN an HTML file is generated that displays a nicely formatted team roster based on user input
@@ -34,9 +37,9 @@ GIVEN a command-line application that accepts user input
 #### UNC Boot Camp Submission: 
 🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests)
 
-📄 [Example Github Page](https://dionnenoellabarretto.github.io/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests/FrontEnd Team)
+📄 [Example Github Page](https://dionnenoellabarretto.github.io/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests/FrontEnd%20Team)
 
-📄 [Another Example Github Page](https://dionnenoellabarretto.github.io/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests/Cloud Team)
+📄 [Another Example Github Page](https://dionnenoellabarretto.github.io/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests/Cloud%20Team)
 
 ## Mock-Up
 Clickable link(s): navigate to github, university or local mail client
