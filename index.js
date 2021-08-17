@@ -158,7 +158,7 @@ function addEngineer() {
             },
             {
                 message: "Enter 1 or 2 skills you've mastered! :",
-                name: "name"
+                name: "skill"
                 // type: 'multi-choice',
                 // name: 'skill',
                 // message: 'Select 1 skill you have mastered!',
@@ -274,7 +274,7 @@ function buildTeamProfile() {
         }
         if (TeamProfile[i].school) {
             value += `
-            <p><i class="fas fa-graduation-cap"></i> <u>University: </u> <a href="https://www.google.com/search?q=${TeamProfile[i].github}">${TeamProfile[i].school}</a></p>
+            <p><i class="fas fa-graduation-cap"></i> <u>University: </u> <a href="https://www.google.com/search?q=${TeamProfile[i].school}">${TeamProfile[i].school}</a></p>
             `
         }
         if (TeamProfile[i].year) {

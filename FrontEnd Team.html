@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Page Title -->
+    <title>Frontend Team</title>
+    <!-- Custom Font - Google Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+    <!-- link to font awesome icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Custom styling embedded using js constant assignment ( this could have been a mere style sheet reference as well like the above links but here's an experiment to show different ways of importing dynamically) -->
+    <style>
+     
+/* element  selectors */
+html, body {
+    max-width: 100% !important;
+}
+
+body {
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Merienda', cursive;
+    font-size: 6vw;
+}
+
+p {
+    font-family: 'Merienda', cursive;
+    position: relative;
+    left: 12px;
+}
+
+h2 {
+    font-family: 'Merienda', cursive;
+    position: relative;
+    font-size: 17px;
+    left: 12px;
+}
+
+/* class selectors */
+.banner-bar {
+    background: linear-gradient(-45deg,#1A76F8,#00D693, #5266FE);
+    width: 100%;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.card {
+    width: 285px;
+    height: 34vh;
+    margin-bottom: 5vh;
+    background: linear-gradient(-75deg, rgb(247, 243, 190), #d1d1d1);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+}
+
+.card-container {
+    position: absolute;
+    top: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90vw;
+}
+
+.card-header {
+    background: linear-gradient(45deg, #5EA7EC,#CE7287, #02D496);
+    border: 2px dashed #5EA7EC;
+    width: 281px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-body {
+    background: linear-gradient(-75deg, rgb(247, 243, 190), #d1d1d1);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+    </style>
+</head>
+<body>
+<!-- team name header up top -->
+    <div class="banner-bar">
+        <h1>Frontend Team
+        <i class="fas fa-users"></i></h1>
+    </div>
+    <!--section for all the team member profile cards -->
+    <div class="card-container">
+    
+        <div class="card">
+            <div class="card-header">
+            <h2><i class="fas fa-user-tag"></i> Ash R 
+ (Manager)</h2>
+                
+            </div>
+            <div class="card-body">
+                <p> <i class="fas fa-id-badge"></i> <u>Employee ID: </u> 1</p>
+                <p> <i class="fas fa-envelope-square"></i> <u>Email: </u> <a href="mailto:ashr@test.com">ashr@test.com</a></p>
+        
+            <p><i class="fas fa-search-location"></i> <u>Office Number: </u>123</p>
+            
+            <p><i class="fas fa-phone-alt"></i> <u>Contact Number: </u>1234567890 </p>
+            
+        </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+            <h2><i class="fas fa-user-tag"></i> Dionne Noella Barretto 
+ (Engineer)</h2>
+                
+            </div>
+            <div class="card-body">
+                <p> <i class="fas fa-id-badge"></i> <u>Employee ID: </u> 3</p>
+                <p> <i class="fas fa-envelope-square"></i> <u>Email: </u> <a href="mailto:denverdionne@gmail.com">denverdionne@gmail.com</a></p>
+        
+            <p><i class="fas fa-cogs"></i> <u>Skill(s): </u>HTML, CSS</p>
+            
+            <p><i class="fab fa-github"></i> <u>GitHub: </u> <a href="https://github.com/dionnenoellabarretto">dionnenoellabarretto</a></p>
+            
+        </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+            <h2><i class="fas fa-user-tag"></i> Denver 
+ (Intern)</h2>
+                
+            </div>
+            <div class="card-body">
+                <p> <i class="fas fa-id-badge"></i> <u>Employee ID: </u> 4</p>
+                <p> <i class="fas fa-envelope-square"></i> <u>Email: </u> <a href="mailto:denver@test.com">denver@test.com</a></p>
+        
+            <p><i class="fas fa-graduation-cap"></i> <u>University: </u> <a href="https://www.google.com/search?q=Syracuse University">Syracuse University</a></p>
+            
+            <p><i class="fas fa-calendar-day"></i> <u>Graduation Year: </u>2021</p>
+            
+        </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+            <h2><i class="fas fa-user-tag"></i> Sun R 
+ (Engineer)</h2>
+                
+            </div>
+            <div class="card-body">
+                <p> <i class="fas fa-id-badge"></i> <u>Employee ID: </u> 5</p>
+                <p> <i class="fas fa-envelope-square"></i> <u>Email: </u> <a href="mailto:sunrr@test.com">sunrr@test.com</a></p>
+        
+            <p><i class="fas fa-cogs"></i> <u>Skill(s): </u>jquery,node.js</p>
+            
+            <p><i class="fab fa-github"></i> <u>GitHub: </u> <a href="https://github.com/sunr">sunr</a></p>
+            
+        </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+            <h2><i class="fas fa-user-tag"></i> Sand 
+ (Intern)</h2>
+                
+            </div>
+            <div class="card-body">
+                <p> <i class="fas fa-id-badge"></i> <u>Employee ID: </u> 6</p>
+                <p> <i class="fas fa-envelope-square"></i> <u>Email: </u> <a href="mailto:sand@test.com">sand@test.com</a></p>
+        
+            <p><i class="fas fa-graduation-cap"></i> <u>University: </u> <a href="https://www.google.com/search?q=UNC">UNC</a></p>
+            
+            <p><i class="fas fa-calendar-day"></i> <u>Graduation Year: </u>2023</p>
+            
+        </div>
+        </div>
+        
+    </div>
+    </body>
+    </html>
+    
